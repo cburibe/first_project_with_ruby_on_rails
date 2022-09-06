@@ -1,0 +1,8 @@
+<h1 class="title"><%= @product.title %></h1>
+<h1 class="description"><%= @product.description %></h1>
+<h1 class="price"><%= @product.price %></h1>
+<%= link_to 'Editar producto', edit_product_path(@product) %>
+<%= link_to 'Eliminar producto', product_path(@product), data: {
+  turbo_method: :delete,
+  turbo_confirm: t('common.confirm')
+} %>

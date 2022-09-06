@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+chocolate:
+  title: chocolate
+  description: gran chocolate
+  price: 10
+
+crack:
+  title: galleta de choco
+  description: excelente galleta
+  price: 123
